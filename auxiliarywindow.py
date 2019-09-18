@@ -216,6 +216,7 @@ class MarkerWindow():
 
 
 class AuxiliaryWindow(QMainWindow):
+  """Creates a New Canvas."""
   
   closed = pyqtSignal( int )
   
